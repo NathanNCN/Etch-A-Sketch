@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+    <link rel="StyleSheet" href="style.css">
+</head>
+<body>
+    <header class="flex-container-row">
+        <h1 class="header">Etch-A-Sketch</h1>
+    </header>
+    <h2 class="sub-text"> Tools</h2>
+
+
+    <div class="flex-container-row">
+        <form class="flex-container-col" id="gridForm">
+            <button type="submit"> Select </button>
+            <input type="Number" min="1" max="100" placeholder="Grid Size" name="size" >
+        </form>
+        <button id="easer"> Eraser </button>
+        <button id="black"> Black </button>
+        <form class="flex-container-col" id="colorForm" style="width: 100px;">
+            <button type="submit"> Select </button>
+            <input type="text" placeholder="Custom Color" name="color" >
+        </form>
+    
+    </div>
+
+    <div class="flex-container-row">
+        <div id="grid" class="grid">
+        </div>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
